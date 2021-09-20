@@ -1,1 +1,3 @@
-# Text-generation-web-app-using-GPT-Neo
+GPT-Neo is the open source version of GPT-3 created by open.ai. GPT-Neo is an large-transformer based implementation model used for text generation. Hugging Face Transformer is one transformer used in GPT-Neo that contains several packages including one I've used called HappyTransformer. HappyTransformer is used to control and define the algorithm to be used for text prediction. By default, greedy algorithm is used. However, there are two other algorithms namely Top-k sampling and Generic that can also be used to generate text by hypertuning a parameter - temperature. 
+
+Anvil servers can be used to connect text generation algorithm to the front end of the web application. 
